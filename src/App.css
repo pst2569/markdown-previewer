@@ -1,0 +1,36 @@
+#root {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+
+#preview {
+  width: 100%;
+  max-width: 688px;
+  border: 1px solid;
+  min-height: 300px;
+  height: fit-content;
+  padding: 10px;
+}
+
+#editor {
+  width: 100%;
+  max-width: 688px;
+  border: 1px solid;
+  height: 300px;
+  padding: 10px;
+}
+
+#preview-container,
+#editor-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+img {
+  width: 100%;
+}
